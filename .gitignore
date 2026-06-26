@@ -1,0 +1,15 @@
+# virtual environment — never push this
+venv/
+
+# environment variables — never push this
+.env
+
+# python cache files
+__pycache__/
+*.pyc
+
+# local sqlite database if you use one during dev
+*.db
+
+# VS Code settings
+.vscode/
