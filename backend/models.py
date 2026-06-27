@@ -29,7 +29,8 @@ class JobApplication(db.Model):
         return {
             "id": self.id,
             "company": self.company,
-            "role": self.status,
+            "role": self.role,
+            "status": self.status,
             "date_applied": self.date_applied.isoformat(),
             "link": self.link,
             "notes": self.notes,

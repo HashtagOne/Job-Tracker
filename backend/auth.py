@@ -14,7 +14,7 @@ def me():
 def register():
     data = request.get_json()
 
-    if not data or not data.get("username") or not data.get ("password"):
+    if not data or not data.get("username") or not data.get("password"):
         return jsonify({"error": "Username and password are required"}), 400
     
     existing_user = User.query.filter_by(username=data["username"]).first()
