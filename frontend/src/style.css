@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* CSS */
+:root {
+    --bg-primary: #0D0D0F;
+    --bg-card: #1A1A1F;
+    --border: #2A2A32;
+    --text-primary: #E8E0D0;
+    --text-secondary: rgba(232, 224, 208, 0.6);
+    -text-muted: rgba(232, 224, 208, 0.3);
+    --color-blue: #5B8CFF;
+    --color-grey: #6B7280;
+    --color-green: #4ADE80;
+    --color-red: #C0393A;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
