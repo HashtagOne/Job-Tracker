@@ -24,7 +24,7 @@ const router = createRouter({
     ]
 })
 
-routers.beforeEach(async (to, from, next) => {
+router.beforeEach(async (to, from, next) => {
     if (!authReady.value) {
         await new Promise(resolve => {
             const stop = watch(authReady, (val) => {

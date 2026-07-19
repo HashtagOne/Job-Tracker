@@ -45,4 +45,38 @@ onMounted(async () => {
 </template>
 
 <style>
+.router-wrapper {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.auth-loading {
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+.fade-up-enter-active,
+.fade-down-enter-active {
+    transition: opacity 1s ease, transform 1s ease;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.fade-up-leave-active,
+.fade-down-leave-active {
+    transition: opacity 1s ease, transform 1s ease;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.fade-up-enter-from { opacity: 0; transform: translateY(16px); }
+.fade-up-leave-to { opacity: 0; transform: translateY(-16px); }
+.fade-down-enter-from { opacity: 0; transform: translateY(-16px); }
+.fade-down-leave-to { opacity: 0; transform: translateY(16px); }
 </style>

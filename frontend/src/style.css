@@ -18,7 +18,7 @@ html {
     --border: #2A2A32;
     --text-primary: #E8E0D0;
     --text-secondary: rgba(232, 224, 208, 0.6);
-    -text-muted: rgba(232, 224, 208, 0.3);
+    --text-muted: rgba(232, 224, 208, 0.3);
     --color-blue: #5B8CFF;
     --color-grey: #6B7280;
     --color-green: #4ADE80;
