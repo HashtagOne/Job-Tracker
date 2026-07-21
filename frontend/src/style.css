@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +15,9 @@ html {
     --bg-primary: #0D0D0F;
     --bg-card: #1A1A1F;
     --border: #2A2A32;
-    --text-primary: #E8E0D0;
-    --text-secondary: rgba(232, 224, 208, 0.6);
-    --text-muted: rgba(232, 224, 208, 0.3);
+    --text-primary: #d0dae8;
+    --text-secondary: rgba(208, 220, 232, 0.6);
+    --text-muted: rgba(208, 222, 232, 0.3);
     --color-blue: #5B8CFF;
     --color-grey: #6B7280;
     --color-green: #4ADE80;

@@ -57,7 +57,7 @@ onMounted(async () => {
 
 .fade-up-enter-active,
 .fade-down-enter-active {
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 0.35s ease, transform 0.35s ease;
     position: absolute;
     width: 100%;
     top: 0;
@@ -67,7 +67,7 @@ onMounted(async () => {
 
 .fade-up-leave-active,
 .fade-down-leave-active {
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 0.35s ease, transform 0.35s ease;
     position: absolute;
     width: 100%;
     top: 0;
