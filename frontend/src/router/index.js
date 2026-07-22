@@ -24,7 +24,7 @@ const router = createRouter({
     ]
 })
 
-router.beforeEach(async (to, from, next) => {
+router.beforeEach(async (to, from) => {
     if (!authReady.value) {
         await new Promise(resolve => {
             const stop = watch(authReady, (val) => {
@@ -37,9 +37,7 @@ router.beforeEach(async (to, from, next) => {
     }
 
     if (to.meta.requiresAuth && !isLoggedIn.value) {
-        next('/login')
-    } else {
-        next()
+        return '/login'
     }
 })
 
